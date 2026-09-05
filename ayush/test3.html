@@ -337,6 +337,9 @@
   .hero-tagline .tl-comment{ color: var(--dim); }
   .hero-tagline .tl-a{ color: var(--pink); font-weight:600; }
   .hero-tagline .tl-b{ color: var(--cyan); font-weight:600; }
+  .hero-tagline .tl-prompt-group{
+    display:inline-flex; align-items:center; gap:8px; white-space:nowrap;
+  }
   .hero-tagline .tl-cursor{
     width:10px; height:10px; display:inline-block; flex-shrink:0;
     border-radius: 50%;
@@ -764,8 +767,10 @@
       <p class="hero-sub glitch-wrap" data-text="POP CULTURE × CODING"><span class="px">POP CULTURE</span><span class="x">×</span><span class="cx">CODING</span></p>
       <p class="hero-tagline">
         <span class="tl-a">SAME REFERENCES.</span><span class="tl-b">DIFFERENT SYNTAX.</span>
-        <span class="tl-prompt">&gt; _</span>
-        <span class="tl-cursor" aria-hidden="true"></span>
+        <span class="tl-prompt-group">
+          <span class="tl-prompt">&gt; _</span>
+          <span class="tl-cursor" aria-hidden="true"></span>
+        </span>
       </p>
      
       <div class="meta-chips">
